@@ -67,7 +67,17 @@ h1{
     font-weight: 700;
     background-color: #f7a600;
     box-shadow: 0px 4px 4px 0px #00000040;   
+    cursor: pointer;
 }
+
+.converter-button:hover{
+    background-color: #bb7d02;
+}
+
+.converter-button:active{
+    background-color: #926201;
+}
+
 
 .currency-converter{
     display: flex;
@@ -98,3 +108,11 @@ h1{
     font-size: 20px;
     font-weight: 700;
 }
+
+footer{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 0;
+}   
