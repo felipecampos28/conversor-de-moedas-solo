@@ -116,3 +116,13 @@ footer{
     text-align: center;
     margin: 10px 0 0;
 }   
+
+@media screen and (max-width: 500px) {
+    .logo-money{
+        width: 90%;
+    }
+
+    main{
+        width: 100%;
+    }
+}
