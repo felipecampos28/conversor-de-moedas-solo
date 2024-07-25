@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversor de Moedas - Mundo Apto</title>
+</head>
+
+<body>
+        <img class="logo-money" src="./assets/moedas-money.gif" alt="logo-money">
+    <main class="wrapper">
+        <h1>Conversor de Moedas</h1>
+        <section class="section-converter">
+            <label>
+                Converter de:
+                <select class="select-currency-to-converter">
+                    <option>Real Brasileiro</option>
+                </select>
+            </label>
+            <label>
+                Converter para:
+                <select class="select-currency-converted" >
+                    <option value="">Dólar Americano</option>
+                    <option value="">Euro</option>
+                    <option value="">Bitcoin</option>
+                </select>
+            </label>
+            <label>
+                Valor:
+                <input class="input-label" placeholder="R$ 0,00">
+            </label>
+            <button class="converter-button">Converter</button>
+        </section>
+        <section class="currency-converter">
+            <div class="div-converter">
+                <img class="converter-image" src="./assets/real.gif" alt="logo-real">
+                <p class="converter-name">Real Brasileiro</p>
+                <p class="converter-value">R$ 0,00</p>
+            </div>
+            <img class="converter-arrow" src="./assets/arrow.png" alt="arrow">
+            <div class="div-converter">
+                <img class="converter-image" src="./assets/dolar.webp" alt="logo-dolar">
+                <p class="converter-name">Dólar Americano</p>
+                <p class="converter-value">$ 0.0</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por - Felipe Campos</p>
+    </footer>
+</body>
+
+</html>
